@@ -115,7 +115,12 @@ class Sidebar extends React.Component {
                 href="#"
                 className={this.state.current === item.url ? 'active' : ''}
               >
-                <Icon src={item.url + '/favicon.ico'} />
+                <Icon
+                  src={
+                    'https://s2.googleusercontent.com/s2/favicons?domain_url=' +
+                    item.url
+                  }
+                />
                 {item.title}
               </Link>
             </Item>
