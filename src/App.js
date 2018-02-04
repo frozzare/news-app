@@ -5,7 +5,7 @@ import Container from './components/Container';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
 import WebView from './components/WebView';
-const electron = window.require('electron');
+const ipc = window.electronRequire('electron').ipcRenderer;
 
 injectGlobal`
   ${normalize}
@@ -46,7 +46,7 @@ class App extends React.Component {
    * Listen on ipc rendered on mount.
    */
   componentDidMount() {
-    electron.ipcRenderer.on('config', (e, config) => {
+    ipc.on('config', (e, config) => {
       this.setState({
         config: config
       });
