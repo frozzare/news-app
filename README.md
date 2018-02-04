@@ -1,6 +1,6 @@
 # News
 
-> Build for personal usage and only tested on mac
+> Built for personal usage and only tested on mac
 
 Real simple Electron using React to show sites in a standalone app. It has a sidebar where you can choose from predefined sites.
 
