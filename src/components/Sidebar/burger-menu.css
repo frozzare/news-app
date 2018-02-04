@@ -1,0 +1,58 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  background-color: #e8e6e8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(232, 230, 232)), to(rgb(210, 208, 210)));
+  background-image: -webkit-linear-gradient(top, rgb(232, 230, 232), rgb(210, 208, 210));
+  background-image: -moz-linear-gradient(top, rgb(232, 230, 232), rgb(210, 208, 210));
+  background-image: -o-linear-gradient(top, rgb(232, 230, 232), rgb(210, 208, 210));
+  background-image: -ms-linear-gradient(top, rgb(232, 230, 232), rgb(210, 208, 210));
+  background-image: linear-gradient(top, rgb(232, 230, 232), rgb(210, 208, 210));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#e8e6e8', EndColorStr='#d2d0d2');
+  position: fixed;
+  width: 13px;
+  height: 13px;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.bm-burger-button span {
+  opacity: 1 !important;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #232323;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  margin-top: -25px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #4a5a73;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #d7dbe6;
+  border-left: 1px #b3b1b3 solid;
+  font-size: 1.15em;
+  margin-top: -25px;
+}
+
+/* Item list styles */
+.bm-item-list {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
